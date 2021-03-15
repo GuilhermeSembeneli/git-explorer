@@ -1,6 +1,6 @@
 # Github Explorer
 
-1. This project doesnt completed!
+1. This project is under development!
 - New features cooming soon
 - In this project i will be using the github api;
 
