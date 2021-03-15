@@ -2,7 +2,7 @@
 
 1. This project doesnt completed!
 - New features cooming soon
-- In this project i will be consuming the github api;
+- In this project i will be using the github api;
 
 # About Github Explorer
 
