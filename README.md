@@ -1,7 +1,8 @@
 # Github Explorer
 
 1. This project doesnt completed!
-2. New features cooming soon
+- New features cooming soon
+- In this project i will be consuming the github api;
 
 # About Github Explorer
 
@@ -11,13 +12,14 @@
 
 # Technologies and Tools that were used
 
-1.Webpack
-2.Babel
-3.Typescript
-4.React.JS
-5.Yarn
-6.Sass
-
+- Webpack
+- Babel
+- Typescript
+- React.JS
+- Yarn
+- Sass
+- React Router Dom
+- Api Rest
 
 # Clone this Repository
 
