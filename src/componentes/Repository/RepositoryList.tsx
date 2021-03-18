@@ -4,16 +4,7 @@ import React from "react";
 
 import { NotFound } from "../NotFound";
 import { useParams } from "react-router";
-
-interface Repository {
-  name: string;
-  description: string;
-  html_url: string;
-}
-
-interface Params {
-  [key: string]: string
-}
+import { Params, Repository } from "../interface";
 
 export function RepositoryList() {
   const [repositories, setRepositories] = React.useState<Repository[]>([]);
@@ -37,7 +28,7 @@ export function RepositoryList() {
   const params : Params = useParams()
 
 
-  React.useEffect(() => {
+  React.useEffect(() => { 
     if (params) Fetch(`https://api.github.com/users/${params.id}/repos`);
   }, [params]);
 

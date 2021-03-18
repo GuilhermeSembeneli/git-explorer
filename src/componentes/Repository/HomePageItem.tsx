@@ -3,7 +3,6 @@ import "../../styles/HomePageItem.scss";
 import { HomePageItemProps } from "../interface";
 
 
-
 export function HomePageItem(props: HomePageItemProps) {
   return (
     <div className="HomePageItem">

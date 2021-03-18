@@ -1,10 +1,4 @@
-interface RepositoryItemProps {
-  repository: {
-      name: string;
-      description: string;
-      html_url: string;
-  }
-}
+import { RepositoryItemProps } from "../interface";
 
 export function RepositoryItem(props : RepositoryItemProps){
     return (

@@ -15,11 +15,9 @@ export function HomePage() {
   async function Fetch(text: string) {
     const response = await fetch(text);
     const json = await response.json();
-    console.log(json)
     return setUsers((user) => [...user, json]);
   }
 
-  console.log(users);
   React.useEffect(() => {
     setUsers([]);
     Poeples.map((people) => Fetch(`http://api.github.com/users/${people}`));
